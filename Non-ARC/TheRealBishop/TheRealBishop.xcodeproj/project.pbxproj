@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65872112196A46930064C2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65872111196A46930064C2C7 /* Foundation.framework */; };
+		65872114196A46930064C2C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65872113196A46930064C2C7 /* CoreGraphics.framework */; };
+		65872116196A46930064C2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65872115196A46930064C2C7 /* UIKit.framework */; };
+		6587211C196A46930064C2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6587211A196A46930064C2C7 /* InfoPlist.strings */; };
+		6587211E196A46930064C2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587211D196A46930064C2C7 /* main.m */; };
+		65872122196A46930064C2C7 /* GP_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872121196A46930064C2C7 /* GP_AppDelegate.m */; };
+		65872124196A46930064C2C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65872123196A46930064C2C7 /* Images.xcassets */; };
+		6587212B196A46930064C2C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6587212A196A46930064C2C7 /* XCTest.framework */; };
+		6587212C196A46930064C2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65872111196A46930064C2C7 /* Foundation.framework */; };
+		6587212D196A46930064C2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65872115196A46930064C2C7 /* UIKit.framework */; };
+		65872135196A46930064C2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65872133196A46930064C2C7 /* InfoPlist.strings */; };
+		65872137196A46930064C2C7 /* TheRealBishopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872136196A46930064C2C7 /* TheRealBishopTests.m */; };
+		65872187196A494C0064C2C7 /* GP_Array2.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872144196A494C0064C2C7 /* GP_Array2.m */; };
+		65872188196A494C0064C2C7 /* GP_Array3.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872146196A494C0064C2C7 /* GP_Array3.m */; };
+		65872189196A494C0064C2C7 /* GP_ArrayedQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872148196A494C0064C2C7 /* GP_ArrayedQueue.m */; };
+		6587218A196A494C0064C2C7 /* GP_ArrayedStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587214A196A494C0064C2C7 /* GP_ArrayedStack.m */; };
+		6587218B196A494C0064C2C7 /* GP_BinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587214C196A494C0064C2C7 /* GP_BinarySearchTree.m */; };
+		6587218C196A494C0064C2C7 /* GP_BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587214E196A494C0064C2C7 /* GP_BinaryTreeNode.m */; };
+		6587218D196A494C0064C2C7 /* GP_BitVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872150196A494C0064C2C7 /* GP_BitVector.m */; };
+		6587218E196A494C0064C2C7 /* GP_DLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872153196A494C0064C2C7 /* GP_DLinkedList.m */; };
+		6587218F196A494C0064C2C7 /* GP_Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872155196A494C0064C2C7 /* GP_Graph.m */; };
+		65872190196A494C0064C2C7 /* GP_GraphArc.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872157196A494C0064C2C7 /* GP_GraphArc.m */; };
+		65872191196A494C0064C2C7 /* GP_GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872159196A494C0064C2C7 /* GP_GraphNode.m */; };
+		65872192196A494C0064C2C7 /* GP_HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587215B196A494C0064C2C7 /* GP_HashMap.m */; };
+		65872193196A494C0064C2C7 /* GP_HashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587215D196A494C0064C2C7 /* GP_HashTable.m */; };
+		65872194196A494C0064C2C7 /* GP_Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587215F196A494C0064C2C7 /* GP_Heap.m */; };
+		65872195196A494C0064C2C7 /* GP_LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872161196A494C0064C2C7 /* GP_LinkedList.m */; };
+		65872196196A494C0064C2C7 /* GP_LinkedListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872163196A494C0064C2C7 /* GP_LinkedListNode.m */; };
+		65872197196A494C0064C2C7 /* GP_LinkedQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872165196A494C0064C2C7 /* GP_LinkedQueue.m */; };
+		65872198196A494C0064C2C7 /* GP_LinkedStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872167196A494C0064C2C7 /* GP_LinkedStack.m */; };
+		65872199196A494C0064C2C7 /* GP_Prioritizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872169196A494C0064C2C7 /* GP_Prioritizable.m */; };
+		6587219A196A494C0064C2C7 /* GP_PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587216B196A494C0064C2C7 /* GP_PriorityQueue.m */; };
+		6587219B196A494C0064C2C7 /* GP_Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587216D196A494C0064C2C7 /* GP_Set.m */; };
+		6587219C196A494C0064C2C7 /* GP_SLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587216F196A494C0064C2C7 /* GP_SLinkedList.m */; };
+		6587219D196A494C0064C2C7 /* GP_SListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872171196A494C0064C2C7 /* GP_SListNode.m */; };
+		6587219E196A494C0064C2C7 /* GP_TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872173196A494C0064C2C7 /* GP_TreeNode.m */; };
+		6587219F196A494C0064C2C7 /* GP_Array2Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872176196A494C0064C2C7 /* GP_Array2Iterator.m */; };
+		658721A0196A494C0064C2C7 /* GP_Array3Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872178196A494C0064C2C7 /* GP_Array3Iterator.m */; };
+		658721A1196A494C0064C2C7 /* GP_ArrayedQueueIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587217A196A494C0064C2C7 /* GP_ArrayedQueueIterator.m */; };
+		658721A2196A494C0064C2C7 /* GP_ArrayedStackIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587217C196A494C0064C2C7 /* GP_ArrayedStackIterator.m */; };
+		658721A3196A494C0064C2C7 /* GP_DListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587217E196A494C0064C2C7 /* GP_DListIterator.m */; };
+		658721A4196A494C0064C2C7 /* GP_NullIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872181196A494C0064C2C7 /* GP_NullIterator.m */; };
+		658721A5196A494C0064C2C7 /* GP_SListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872183196A494C0064C2C7 /* GP_SListIterator.m */; };
+		658721A6196A494C0064C2C7 /* GP_TreeIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65872185196A494C0064C2C7 /* GP_TreeIterator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6587212E196A46930064C2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65872106196A46930064C2C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6587210D196A46930064C2C7;
+			remoteInfo = TheRealBishop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6587210E196A46930064C2C7 /* TheRealBishop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheRealBishop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65872111196A46930064C2C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65872113196A46930064C2C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65872115196A46930064C2C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65872119196A46930064C2C7 /* TheRealBishop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheRealBishop-Info.plist"; sourceTree = "<group>"; };
+		6587211B196A46930064C2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6587211D196A46930064C2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6587211F196A46930064C2C7 /* TheRealBishop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheRealBishop-Prefix.pch"; sourceTree = "<group>"; };
+		65872120196A46930064C2C7 /* GP_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GP_AppDelegate.h; sourceTree = "<group>"; };
+		65872121196A46930064C2C7 /* GP_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GP_AppDelegate.m; sourceTree = "<group>"; };
+		65872123196A46930064C2C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65872129196A46930064C2C7 /* TheRealBishopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheRealBishopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6587212A196A46930064C2C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65872132196A46930064C2C7 /* TheRealBishopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheRealBishopTests-Info.plist"; sourceTree = "<group>"; };
+		65872134196A46930064C2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65872136196A46930064C2C7 /* TheRealBishopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheRealBishopTests.m; sourceTree = "<group>"; };
+		65872143196A494C0064C2C7 /* GP_Array2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Array2.h; sourceTree = "<group>"; };
+		65872144196A494C0064C2C7 /* GP_Array2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Array2.m; sourceTree = "<group>"; };
+		65872145196A494C0064C2C7 /* GP_Array3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Array3.h; sourceTree = "<group>"; };
+		65872146196A494C0064C2C7 /* GP_Array3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Array3.m; sourceTree = "<group>"; };
+		65872147196A494C0064C2C7 /* GP_ArrayedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_ArrayedQueue.h; sourceTree = "<group>"; };
+		65872148196A494C0064C2C7 /* GP_ArrayedQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_ArrayedQueue.m; sourceTree = "<group>"; };
+		65872149196A494C0064C2C7 /* GP_ArrayedStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_ArrayedStack.h; sourceTree = "<group>"; };
+		6587214A196A494C0064C2C7 /* GP_ArrayedStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_ArrayedStack.m; sourceTree = "<group>"; };
+		6587214B196A494C0064C2C7 /* GP_BinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_BinarySearchTree.h; sourceTree = "<group>"; };
+		6587214C196A494C0064C2C7 /* GP_BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_BinarySearchTree.m; sourceTree = "<group>"; };
+		6587214D196A494C0064C2C7 /* GP_BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_BinaryTreeNode.h; sourceTree = "<group>"; };
+		6587214E196A494C0064C2C7 /* GP_BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_BinaryTreeNode.m; sourceTree = "<group>"; };
+		6587214F196A494C0064C2C7 /* GP_BitVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_BitVector.h; sourceTree = "<group>"; };
+		65872150196A494C0064C2C7 /* GP_BitVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_BitVector.m; sourceTree = "<group>"; };
+		65872151196A494C0064C2C7 /* GP_Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Collection.h; sourceTree = "<group>"; };
+		65872152196A494C0064C2C7 /* GP_DLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_DLinkedList.h; sourceTree = "<group>"; };
+		65872153196A494C0064C2C7 /* GP_DLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_DLinkedList.m; sourceTree = "<group>"; };
+		65872154196A494C0064C2C7 /* GP_Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Graph.h; sourceTree = "<group>"; };
+		65872155196A494C0064C2C7 /* GP_Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Graph.m; sourceTree = "<group>"; };
+		65872156196A494C0064C2C7 /* GP_GraphArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_GraphArc.h; sourceTree = "<group>"; };
+		65872157196A494C0064C2C7 /* GP_GraphArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_GraphArc.m; sourceTree = "<group>"; };
+		65872158196A494C0064C2C7 /* GP_GraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_GraphNode.h; sourceTree = "<group>"; };
+		65872159196A494C0064C2C7 /* GP_GraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_GraphNode.m; sourceTree = "<group>"; };
+		6587215A196A494C0064C2C7 /* GP_HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_HashMap.h; sourceTree = "<group>"; };
+		6587215B196A494C0064C2C7 /* GP_HashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_HashMap.m; sourceTree = "<group>"; };
+		6587215C196A494C0064C2C7 /* GP_HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_HashTable.h; sourceTree = "<group>"; };
+		6587215D196A494C0064C2C7 /* GP_HashTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_HashTable.m; sourceTree = "<group>"; };
+		6587215E196A494C0064C2C7 /* GP_Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Heap.h; sourceTree = "<group>"; };
+		6587215F196A494C0064C2C7 /* GP_Heap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Heap.m; sourceTree = "<group>"; };
+		65872160196A494C0064C2C7 /* GP_LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_LinkedList.h; sourceTree = "<group>"; };
+		65872161196A494C0064C2C7 /* GP_LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_LinkedList.m; sourceTree = "<group>"; };
+		65872162196A494C0064C2C7 /* GP_LinkedListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_LinkedListNode.h; sourceTree = "<group>"; };
+		65872163196A494C0064C2C7 /* GP_LinkedListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_LinkedListNode.m; sourceTree = "<group>"; };
+		65872164196A494C0064C2C7 /* GP_LinkedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_LinkedQueue.h; sourceTree = "<group>"; };
+		65872165196A494C0064C2C7 /* GP_LinkedQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_LinkedQueue.m; sourceTree = "<group>"; };
+		65872166196A494C0064C2C7 /* GP_LinkedStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_LinkedStack.h; sourceTree = "<group>"; };
+		65872167196A494C0064C2C7 /* GP_LinkedStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_LinkedStack.m; sourceTree = "<group>"; };
+		65872168196A494C0064C2C7 /* GP_Prioritizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Prioritizable.h; sourceTree = "<group>"; };
+		65872169196A494C0064C2C7 /* GP_Prioritizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Prioritizable.m; sourceTree = "<group>"; };
+		6587216A196A494C0064C2C7 /* GP_PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_PriorityQueue.h; sourceTree = "<group>"; };
+		6587216B196A494C0064C2C7 /* GP_PriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_PriorityQueue.m; sourceTree = "<group>"; };
+		6587216C196A494C0064C2C7 /* GP_Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Set.h; sourceTree = "<group>"; };
+		6587216D196A494C0064C2C7 /* GP_Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Set.m; sourceTree = "<group>"; };
+		6587216E196A494C0064C2C7 /* GP_SLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_SLinkedList.h; sourceTree = "<group>"; };
+		6587216F196A494C0064C2C7 /* GP_SLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_SLinkedList.m; sourceTree = "<group>"; };
+		65872170196A494C0064C2C7 /* GP_SListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_SListNode.h; sourceTree = "<group>"; };
+		65872171196A494C0064C2C7 /* GP_SListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_SListNode.m; sourceTree = "<group>"; };
+		65872172196A494C0064C2C7 /* GP_TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_TreeNode.h; sourceTree = "<group>"; };
+		65872173196A494C0064C2C7 /* GP_TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_TreeNode.m; sourceTree = "<group>"; };
+		65872175196A494C0064C2C7 /* GP_Array2Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Array2Iterator.h; sourceTree = "<group>"; };
+		65872176196A494C0064C2C7 /* GP_Array2Iterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Array2Iterator.m; sourceTree = "<group>"; };
+		65872177196A494C0064C2C7 /* GP_Array3Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Array3Iterator.h; sourceTree = "<group>"; };
+		65872178196A494C0064C2C7 /* GP_Array3Iterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_Array3Iterator.m; sourceTree = "<group>"; };
+		65872179196A494C0064C2C7 /* GP_ArrayedQueueIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_ArrayedQueueIterator.h; sourceTree = "<group>"; };
+		6587217A196A494C0064C2C7 /* GP_ArrayedQueueIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_ArrayedQueueIterator.m; sourceTree = "<group>"; };
+		6587217B196A494C0064C2C7 /* GP_ArrayedStackIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_ArrayedStackIterator.h; sourceTree = "<group>"; };
+		6587217C196A494C0064C2C7 /* GP_ArrayedStackIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_ArrayedStackIterator.m; sourceTree = "<group>"; };
+		6587217D196A494C0064C2C7 /* GP_DListIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_DListIterator.h; sourceTree = "<group>"; };
+		6587217E196A494C0064C2C7 /* GP_DListIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_DListIterator.m; sourceTree = "<group>"; };
+		6587217F196A494C0064C2C7 /* GP_Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_Iterator.h; sourceTree = "<group>"; };
+		65872180196A494C0064C2C7 /* GP_NullIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_NullIterator.h; sourceTree = "<group>"; };
+		65872181196A494C0064C2C7 /* GP_NullIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_NullIterator.m; sourceTree = "<group>"; };
+		65872182196A494C0064C2C7 /* GP_SListIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_SListIterator.h; sourceTree = "<group>"; };
+		65872183196A494C0064C2C7 /* GP_SListIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_SListIterator.m; sourceTree = "<group>"; };
+		65872184196A494C0064C2C7 /* GP_TreeIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GP_TreeIterator.h; sourceTree = "<group>"; };
+		65872185196A494C0064C2C7 /* GP_TreeIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GP_TreeIterator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6587210B196A46930064C2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65872114196A46930064C2C7 /* CoreGraphics.framework in Frameworks */,
+				65872116196A46930064C2C7 /* UIKit.framework in Frameworks */,
+				65872112196A46930064C2C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65872126196A46930064C2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6587212B196A46930064C2C7 /* XCTest.framework in Frameworks */,
+				6587212D196A46930064C2C7 /* UIKit.framework in Frameworks */,
+				6587212C196A46930064C2C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65872105196A46930064C2C7 = {
+			isa = PBXGroup;
+			children = (
+				65872117196A46930064C2C7 /* TheRealBishop */,
+				65872130196A46930064C2C7 /* TheRealBishopTests */,
+				65872110196A46930064C2C7 /* Frameworks */,
+				6587210F196A46930064C2C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6587210F196A46930064C2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6587210E196A46930064C2C7 /* TheRealBishop.app */,
+				65872129196A46930064C2C7 /* TheRealBishopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65872110196A46930064C2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65872111196A46930064C2C7 /* Foundation.framework */,
+				65872113196A46930064C2C7 /* CoreGraphics.framework */,
+				65872115196A46930064C2C7 /* UIKit.framework */,
+				6587212A196A46930064C2C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65872117196A46930064C2C7 /* TheRealBishop */ = {
+			isa = PBXGroup;
+			children = (
+				65872140196A494C0064C2C7 /* com */,
+				65872120196A46930064C2C7 /* GP_AppDelegate.h */,
+				65872121196A46930064C2C7 /* GP_AppDelegate.m */,
+				65872123196A46930064C2C7 /* Images.xcassets */,
+				65872118196A46930064C2C7 /* Supporting Files */,
+			);
+			path = TheRealBishop;
+			sourceTree = "<group>";
+		};
+		65872118196A46930064C2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65872119196A46930064C2C7 /* TheRealBishop-Info.plist */,
+				6587211A196A46930064C2C7 /* InfoPlist.strings */,
+				6587211D196A46930064C2C7 /* main.m */,
+				6587211F196A46930064C2C7 /* TheRealBishop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65872130196A46930064C2C7 /* TheRealBishopTests */ = {
+			isa = PBXGroup;
+			children = (
+				65872136196A46930064C2C7 /* TheRealBishopTests.m */,
+				65872131196A46930064C2C7 /* Supporting Files */,
+			);
+			path = TheRealBishopTests;
+			sourceTree = "<group>";
+		};
+		65872131196A46930064C2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65872132196A46930064C2C7 /* TheRealBishopTests-Info.plist */,
+				65872133196A46930064C2C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65872140196A494C0064C2C7 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				65872141196A494C0064C2C7 /* lookbackon */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		65872141196A494C0064C2C7 /* lookbackon */ = {
+			isa = PBXGroup;
+			children = (
+				65872142196A494C0064C2C7 /* ds */,
+			);
+			path = lookbackon;
+			sourceTree = "<group>";
+		};
+		65872142196A494C0064C2C7 /* ds */ = {
+			isa = PBXGroup;
+			children = (
+				65872143196A494C0064C2C7 /* GP_Array2.h */,
+				65872144196A494C0064C2C7 /* GP_Array2.m */,
+				65872145196A494C0064C2C7 /* GP_Array3.h */,
+				65872146196A494C0064C2C7 /* GP_Array3.m */,
+				65872147196A494C0064C2C7 /* GP_ArrayedQueue.h */,
+				65872148196A494C0064C2C7 /* GP_ArrayedQueue.m */,
+				65872149196A494C0064C2C7 /* GP_ArrayedStack.h */,
+				6587214A196A494C0064C2C7 /* GP_ArrayedStack.m */,
+				6587214B196A494C0064C2C7 /* GP_BinarySearchTree.h */,
+				6587214C196A494C0064C2C7 /* GP_BinarySearchTree.m */,
+				6587214D196A494C0064C2C7 /* GP_BinaryTreeNode.h */,
+				6587214E196A494C0064C2C7 /* GP_BinaryTreeNode.m */,
+				6587214F196A494C0064C2C7 /* GP_BitVector.h */,
+				65872150196A494C0064C2C7 /* GP_BitVector.m */,
+				65872151196A494C0064C2C7 /* GP_Collection.h */,
+				65872152196A494C0064C2C7 /* GP_DLinkedList.h */,
+				65872153196A494C0064C2C7 /* GP_DLinkedList.m */,
+				65872154196A494C0064C2C7 /* GP_Graph.h */,
+				65872155196A494C0064C2C7 /* GP_Graph.m */,
+				65872156196A494C0064C2C7 /* GP_GraphArc.h */,
+				65872157196A494C0064C2C7 /* GP_GraphArc.m */,
+				65872158196A494C0064C2C7 /* GP_GraphNode.h */,
+				65872159196A494C0064C2C7 /* GP_GraphNode.m */,
+				6587215A196A494C0064C2C7 /* GP_HashMap.h */,
+				6587215B196A494C0064C2C7 /* GP_HashMap.m */,
+				6587215C196A494C0064C2C7 /* GP_HashTable.h */,
+				6587215D196A494C0064C2C7 /* GP_HashTable.m */,
+				6587215E196A494C0064C2C7 /* GP_Heap.h */,
+				6587215F196A494C0064C2C7 /* GP_Heap.m */,
+				65872160196A494C0064C2C7 /* GP_LinkedList.h */,
+				65872161196A494C0064C2C7 /* GP_LinkedList.m */,
+				65872162196A494C0064C2C7 /* GP_LinkedListNode.h */,
+				65872163196A494C0064C2C7 /* GP_LinkedListNode.m */,
+				65872164196A494C0064C2C7 /* GP_LinkedQueue.h */,
+				65872165196A494C0064C2C7 /* GP_LinkedQueue.m */,
+				65872166196A494C0064C2C7 /* GP_LinkedStack.h */,
+				65872167196A494C0064C2C7 /* GP_LinkedStack.m */,
+				65872168196A494C0064C2C7 /* GP_Prioritizable.h */,
+				65872169196A494C0064C2C7 /* GP_Prioritizable.m */,
+				6587216A196A494C0064C2C7 /* GP_PriorityQueue.h */,
+				6587216B196A494C0064C2C7 /* GP_PriorityQueue.m */,
+				6587216C196A494C0064C2C7 /* GP_Set.h */,
+				6587216D196A494C0064C2C7 /* GP_Set.m */,
+				6587216E196A494C0064C2C7 /* GP_SLinkedList.h */,
+				6587216F196A494C0064C2C7 /* GP_SLinkedList.m */,
+				65872170196A494C0064C2C7 /* GP_SListNode.h */,
+				65872171196A494C0064C2C7 /* GP_SListNode.m */,
+				65872172196A494C0064C2C7 /* GP_TreeNode.h */,
+				65872173196A494C0064C2C7 /* GP_TreeNode.m */,
+				65872174196A494C0064C2C7 /* iterators */,
+				65872186196A494C0064C2C7 /* sort */,
+			);
+			path = ds;
+			sourceTree = "<group>";
+		};
+		65872174196A494C0064C2C7 /* iterators */ = {
+			isa = PBXGroup;
+			children = (
+				65872175196A494C0064C2C7 /* GP_Array2Iterator.h */,
+				65872176196A494C0064C2C7 /* GP_Array2Iterator.m */,
+				65872177196A494C0064C2C7 /* GP_Array3Iterator.h */,
+				65872178196A494C0064C2C7 /* GP_Array3Iterator.m */,
+				65872179196A494C0064C2C7 /* GP_ArrayedQueueIterator.h */,
+				6587217A196A494C0064C2C7 /* GP_ArrayedQueueIterator.m */,
+				6587217B196A494C0064C2C7 /* GP_ArrayedStackIterator.h */,
+				6587217C196A494C0064C2C7 /* GP_ArrayedStackIterator.m */,
+				6587217D196A494C0064C2C7 /* GP_DListIterator.h */,
+				6587217E196A494C0064C2C7 /* GP_DListIterator.m */,
+				6587217F196A494C0064C2C7 /* GP_Iterator.h */,
+				65872180196A494C0064C2C7 /* GP_NullIterator.h */,
+				65872181196A494C0064C2C7 /* GP_NullIterator.m */,
+				65872182196A494C0064C2C7 /* GP_SListIterator.h */,
+				65872183196A494C0064C2C7 /* GP_SListIterator.m */,
+				65872184196A494C0064C2C7 /* GP_TreeIterator.h */,
+				65872185196A494C0064C2C7 /* GP_TreeIterator.m */,
+			);
+			path = iterators;
+			sourceTree = "<group>";
+		};
+		65872186196A494C0064C2C7 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6587210D196A46930064C2C7 /* TheRealBishop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6587213A196A46930064C2C7 /* Build configuration list for PBXNativeTarget "TheRealBishop" */;
+			buildPhases = (
+				6587210A196A46930064C2C7 /* Sources */,
+				6587210B196A46930064C2C7 /* Frameworks */,
+				6587210C196A46930064C2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheRealBishop;
+			productName = TheRealBishop;
+			productReference = 6587210E196A46930064C2C7 /* TheRealBishop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65872128196A46930064C2C7 /* TheRealBishopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6587213D196A46930064C2C7 /* Build configuration list for PBXNativeTarget "TheRealBishopTests" */;
+			buildPhases = (
+				65872125196A46930064C2C7 /* Sources */,
+				65872126196A46930064C2C7 /* Frameworks */,
+				65872127196A46930064C2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6587212F196A46930064C2C7 /* PBXTargetDependency */,
+			);
+			name = TheRealBishopTests;
+			productName = TheRealBishopTests;
+			productReference = 65872129196A46930064C2C7 /* TheRealBishopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65872106196A46930064C2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP_;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GODPAPER;
+				TargetAttributes = {
+					6587210D196A46930064C2C7 = {
+						DevelopmentTeam = 63X9SGW3ZX;
+					};
+					65872128196A46930064C2C7 = {
+						TestTargetID = 6587210D196A46930064C2C7;
+					};
+				};
+			};
+			buildConfigurationList = 65872109196A46930064C2C7 /* Build configuration list for PBXProject "TheRealBishop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65872105196A46930064C2C7;
+			productRefGroup = 6587210F196A46930064C2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6587210D196A46930064C2C7 /* TheRealBishop */,
+				65872128196A46930064C2C7 /* TheRealBishopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6587210C196A46930064C2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6587211C196A46930064C2C7 /* InfoPlist.strings in Resources */,
+				65872124196A46930064C2C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65872127196A46930064C2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65872135196A46930064C2C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6587210A196A46930064C2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6587218F196A494C0064C2C7 /* GP_Graph.m in Sources */,
+				6587211E196A46930064C2C7 /* main.m in Sources */,
+				658721A6196A494C0064C2C7 /* GP_TreeIterator.m in Sources */,
+				65872198196A494C0064C2C7 /* GP_LinkedStack.m in Sources */,
+				6587218D196A494C0064C2C7 /* GP_BitVector.m in Sources */,
+				658721A2196A494C0064C2C7 /* GP_ArrayedStackIterator.m in Sources */,
+				65872192196A494C0064C2C7 /* GP_HashMap.m in Sources */,
+				6587219D196A494C0064C2C7 /* GP_SListNode.m in Sources */,
+				658721A4196A494C0064C2C7 /* GP_NullIterator.m in Sources */,
+				65872193196A494C0064C2C7 /* GP_HashTable.m in Sources */,
+				6587218E196A494C0064C2C7 /* GP_DLinkedList.m in Sources */,
+				658721A0196A494C0064C2C7 /* GP_Array3Iterator.m in Sources */,
+				65872195196A494C0064C2C7 /* GP_LinkedList.m in Sources */,
+				65872189196A494C0064C2C7 /* GP_ArrayedQueue.m in Sources */,
+				65872191196A494C0064C2C7 /* GP_GraphNode.m in Sources */,
+				6587219A196A494C0064C2C7 /* GP_PriorityQueue.m in Sources */,
+				658721A1196A494C0064C2C7 /* GP_ArrayedQueueIterator.m in Sources */,
+				65872194196A494C0064C2C7 /* GP_Heap.m in Sources */,
+				6587218A196A494C0064C2C7 /* GP_ArrayedStack.m in Sources */,
+				65872196196A494C0064C2C7 /* GP_LinkedListNode.m in Sources */,
+				6587218B196A494C0064C2C7 /* GP_BinarySearchTree.m in Sources */,
+				6587219E196A494C0064C2C7 /* GP_TreeNode.m in Sources */,
+				6587219C196A494C0064C2C7 /* GP_SLinkedList.m in Sources */,
+				65872122196A46930064C2C7 /* GP_AppDelegate.m in Sources */,
+				6587219F196A494C0064C2C7 /* GP_Array2Iterator.m in Sources */,
+				65872188196A494C0064C2C7 /* GP_Array3.m in Sources */,
+				65872187196A494C0064C2C7 /* GP_Array2.m in Sources */,
+				65872190196A494C0064C2C7 /* GP_GraphArc.m in Sources */,
+				658721A5196A494C0064C2C7 /* GP_SListIterator.m in Sources */,
+				6587219B196A494C0064C2C7 /* GP_Set.m in Sources */,
+				65872197196A494C0064C2C7 /* GP_LinkedQueue.m in Sources */,
+				65872199196A494C0064C2C7 /* GP_Prioritizable.m in Sources */,
+				6587218C196A494C0064C2C7 /* GP_BinaryTreeNode.m in Sources */,
+				658721A3196A494C0064C2C7 /* GP_DListIterator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65872125196A46930064C2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65872137196A46930064C2C7 /* TheRealBishopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6587212F196A46930064C2C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6587210D196A46930064C2C7 /* TheRealBishop */;
+			targetProxy = 6587212E196A46930064C2C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6587211A196A46930064C2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6587211B196A46930064C2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65872133196A46930064C2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65872134196A46930064C2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65872138196A46930064C2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65872139196A46930064C2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6587213B196A46930064C2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRealBishop/TheRealBishop-Prefix.pch";
+				INFOPLIST_FILE = "TheRealBishop/TheRealBishop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6587213C196A46930064C2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRealBishop/TheRealBishop-Prefix.pch";
+				INFOPLIST_FILE = "TheRealBishop/TheRealBishop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6587213E196A46930064C2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheRealBishop.app/TheRealBishop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRealBishop/TheRealBishop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TheRealBishopTests/TheRealBishopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6587213F196A46930064C2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheRealBishop.app/TheRealBishop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRealBishop/TheRealBishop-Prefix.pch";
+				INFOPLIST_FILE = "TheRealBishopTests/TheRealBishopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65872109196A46930064C2C7 /* Build configuration list for PBXProject "TheRealBishop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65872138196A46930064C2C7 /* Debug */,
+				65872139196A46930064C2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6587213A196A46930064C2C7 /* Build configuration list for PBXNativeTarget "TheRealBishop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6587213B196A46930064C2C7 /* Debug */,
+				6587213C196A46930064C2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6587213D196A46930064C2C7 /* Build configuration list for PBXNativeTarget "TheRealBishopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6587213E196A46930064C2C7 /* Debug */,
+				6587213F196A46930064C2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65872106196A46930064C2C7 /* Project object */;
+}
