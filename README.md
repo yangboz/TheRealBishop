@@ -32,3 +32,6 @@ Also based on the great open source project Sparrow framework.
 1.Obj-c properties at protocol implementation issues;
 2.Obj-c dynamic function required;
 #Wish list:
+
+#Reference:
+http://lab.polygonal.de/?page_id=179
