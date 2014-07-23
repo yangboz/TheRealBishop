@@ -16,9 +16,13 @@ Also based on the great open source project Sparrow framework.
 Almost all classes implement the Collection interface, which defines the following methods:
 
 <code>contains(obj:*), for checking if an item exists</code>
+
 <code>clear(), for removing all items</code>
+
 <code>getIterator(), for creating an iterator object to step through all items</code>
+
 <code>size, the total number of items and</code>
+
 <code>toArray(), which simply converts the structure into an array.</code>
 
 ##Iterators##
