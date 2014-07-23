@@ -11,7 +11,28 @@ Also based on the great open source project Sparrow framework.
 
 #Design:
 
-Online UML design: https://app.genmymodel.com/
+##Collections##
+
+Almost all classes implement the Collection interface, which defines the following methods:
+
+<code>contains(obj:*), for checking if an item exists</code>
+
+<code>clear(), for removing all items</code>
+
+<code>getIterator(), for creating an iterator object to step through all items</code>
+
+<code>size, the total number of items and</code>
+
+<code>toArray(), which simply converts the structure into an array.</code>
+
+##Iterators##
+
+Every class that implements the Collection interface is also able to create an iterator object using the getIterator() method. Once you have an iterator, you can walk through the data and read/write the values...
+
+
+# UML Diagram:
+
+![Screenshot of "UML Diagram"](https://raw.githubusercontent.com/yangboz/TheRealBishop/master/assets/UML_DataStructure.jpeg)
 
 #Notes and tips:
 
@@ -39,3 +60,5 @@ Online UML design: https://app.genmymodel.com/
 
 #Reference:
 http://lab.polygonal.de/?page_id=179
+
+Online UML design: https://app.genmymodel.com/
