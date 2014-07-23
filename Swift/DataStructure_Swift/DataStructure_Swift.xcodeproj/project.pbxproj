@@ -14,7 +14,12 @@
 		6501FB211973745B00400B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6501FB1F1973745B00400B0F /* Main.storyboard */; };
 		6501FB231973745B00400B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6501FB221973745B00400B0F /* Images.xcassets */; };
 		6501FB2F1973745B00400B0F /* DataStructure_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501FB2E1973745B00400B0F /* DataStructure_SwiftTests.swift */; };
-		65F0DC371974B9AB0022B54E /* GP_Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F0DC361974B9AB0022B54E /* GP_Iterator.swift */; };
+		65252B40197F7FF8000B3008 /* GP_Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65252B3E197F7FF8000B3008 /* GP_Iterator.swift */; };
+		65252B42197F822D000B3008 /* Array2Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65252B41197F822D000B3008 /* Array2Iterator.swift */; };
+		65252B44197F828F000B3008 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65252B43197F828F000B3008 /* Iterator.swift */; };
+		65252B48197F8545000B3008 /* Array2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65252B47197F8545000B3008 /* Array2.swift */; };
+		65252B49197F8545000B3008 /* Array2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65252B47197F8545000B3008 /* Array2.swift */; };
+		65252B4B197F8824000B3008 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65252B4A197F8824000B3008 /* Collection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,11 @@
 		6501FB281973745B00400B0F /* DataStructure_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructure_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6501FB2D1973745B00400B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6501FB2E1973745B00400B0F /* DataStructure_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure_SwiftTests.swift; sourceTree = "<group>"; };
-		65F0DC361974B9AB0022B54E /* GP_Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GP_Iterator.swift; sourceTree = "<group>"; };
+		65252B3E197F7FF8000B3008 /* GP_Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GP_Iterator.swift; sourceTree = "<group>"; };
+		65252B41197F822D000B3008 /* Array2Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array2Iterator.swift; path = iterators/Array2Iterator.swift; sourceTree = "<group>"; };
+		65252B43197F828F000B3008 /* Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Iterator.swift; path = iterators/Iterator.swift; sourceTree = "<group>"; };
+		65252B47197F8545000B3008 /* Array2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array2.swift; path = DataStructure_Swift/com/lookbackon/ds/swift/Array2.swift; sourceTree = SOURCE_ROOT; };
+		65252B4A197F8824000B3008 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65252B3B197F7FF8000B3008 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				65252B4A197F8824000B3008 /* Collection.swift */,
+				65252B41197F822D000B3008 /* Array2Iterator.swift */,
+				65252B43197F828F000B3008 /* Iterator.swift */,
+				65252B47197F8545000B3008 /* Array2.swift */,
+				65252B3C197F7FF8000B3008 /* iterators */,
+				65252B3F197F7FF8000B3008 /* sort */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		65252B3C197F7FF8000B3008 /* iterators */ = {
+			isa = PBXGroup;
+			children = (
+				65252B3E197F7FF8000B3008 /* GP_Iterator.swift */,
+			);
+			path = iterators;
+			sourceTree = "<group>";
+		};
+		65252B3F197F7FF8000B3008 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
 		65F0DC301974B98B0022B54E /* com */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,25 +174,9 @@
 		65F0DC321974B98B0022B54E /* ds */ = {
 			isa = PBXGroup;
 			children = (
-				65F0DC331974B98B0022B54E /* iterators */,
-				65F0DC351974B98B0022B54E /* sort */,
+				65252B3B197F7FF8000B3008 /* swift */,
 			);
 			path = ds;
-			sourceTree = "<group>";
-		};
-		65F0DC331974B98B0022B54E /* iterators */ = {
-			isa = PBXGroup;
-			children = (
-				65F0DC361974B9AB0022B54E /* GP_Iterator.swift */,
-			);
-			path = iterators;
-			sourceTree = "<group>";
-		};
-		65F0DC351974B98B0022B54E /* sort */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,10 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F0DC371974B9AB0022B54E /* GP_Iterator.swift in Sources */,
+				65252B40197F7FF8000B3008 /* GP_Iterator.swift in Sources */,
+				65252B4B197F8824000B3008 /* Collection.swift in Sources */,
 				6501FB1C1973745B00400B0F /* GameScene.swift in Sources */,
 				6501FB1E1973745B00400B0F /* GameViewController.swift in Sources */,
+				65252B42197F822D000B3008 /* Array2Iterator.swift in Sources */,
 				6501FB181973745B00400B0F /* AppDelegate.swift in Sources */,
+				65252B44197F828F000B3008 /* Iterator.swift in Sources */,
+				65252B48197F8545000B3008 /* Array2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65252B49197F8545000B3008 /* Array2.swift in Sources */,
 				6501FB2F1973745B00400B0F /* DataStructure_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
