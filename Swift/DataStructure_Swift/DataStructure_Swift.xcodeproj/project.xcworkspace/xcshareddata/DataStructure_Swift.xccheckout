@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7CF586D8-014C-404D-BEE5-9282EDA6FDFB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DataStructure_Swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>513187CB-E827-495B-8D57-B6BE41E9BF2D</key>
+		<string>https://github.com/yangboz/TheRealBishop</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift/DataStructure_Swift/DataStructure_Swift.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>513187CB-E827-495B-8D57-B6BE41E9BF2D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yangboz/TheRealBishop</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>513187CB-E827-495B-8D57-B6BE41E9BF2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>513187CB-E827-495B-8D57-B6BE41E9BF2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheRealBishop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
