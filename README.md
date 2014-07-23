@@ -9,6 +9,10 @@ TheRealBishop project code base translated on TheKnightErrant by ActionScript3 l
 
 Also based on the great open source project Sparrow framework.
 
+#Design:
+
+Online UML design: https://app.genmymodel.com/
+
 #Notes and tips:
 
 1.All of AS3 featured "protected/private" function translate to "public" at Obj-c level;
