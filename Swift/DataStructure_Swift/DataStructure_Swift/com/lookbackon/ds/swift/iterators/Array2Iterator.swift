@@ -13,9 +13,9 @@ class Array2Iterator :Iterator {
 //    private var _a2:Array2;
     var _a2:Array2;
 //    private var _xCursor:int;
-    var _xCursor:Int;
+    var _xCursor:Int = 0;
 //    private var _yCursor:int;
-    var _yCursor:Int;
+    var _yCursor:Int = 0;
     
 //    public function Array2Iterator(a2:Array2)
     func Array2Iterator(a2:Array2)
@@ -36,12 +36,12 @@ class Array2Iterator :Iterator {
     _a2.sett(_xCursor, _yCursor, obj);
     }
     */
-    var _data:AnyObject{
+    var data:AnyObject{
         get{
-            return _a2.get(_xCursor, _yCursor);
+            return _a2->.get(_xCursor, y: _yCursor);
         }
         set{
-            _a2.set(_xCursor, _yCursor, obj);
+            _a2->.set(_xCursor, y: _yCursor, obj: obj);
         }
     }
     
@@ -56,11 +56,12 @@ class Array2Iterator :Iterator {
 //    public function hasNext():Boolean
     func hasNext()->Boolean
     {
-        return (_yCursor * _a2.width + _xCursor < _a2.size);
+//        return (_yCursor * _a2.width + _xCursor < _a2.size);
+        return (_yCursor * _a2->width + _xCursor << _a2->size);
     }
     
 //    public function next():*
-    func next()->func next() -> AnyObject
+    func next()->AnyObject
     {
 //        var item:* = data;
         var item:AnyObject = data;
