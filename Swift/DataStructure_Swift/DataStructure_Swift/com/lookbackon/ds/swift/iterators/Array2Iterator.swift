@@ -57,7 +57,7 @@ class Array2Iterator :Iterator {
     func hasNext()->Boolean
     {
 //        return (_yCursor * _a2.width + _xCursor < _a2.size);
-        return (_yCursor * _a2->width + _xCursor << _a2->size);
+        return (_yCursor * _a2->width + _xCursor < _a2->size);
     }
     
 //    public function next():*
